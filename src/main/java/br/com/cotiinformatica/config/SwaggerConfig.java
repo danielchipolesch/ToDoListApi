@@ -4,6 +4,7 @@ import org.springframework.context.annotation.Configuration;
 import io.swagger.v3.oas.models.Components;
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Info;
+
 @Configuration
 public class SwaggerConfig {
     @Bean
@@ -12,7 +13,7 @@ public class SwaggerConfig {
         OpenAPI openAPI = new OpenAPI()
                 .components(new Components())
                 .info(new Info()
-                        .title("ToDoListApi - Controle de tarefas")
+                        .title("ToDoListApi - Controle de Tarefas")
                         .description("Treinamento Java Arquiteto - COTI Informática")
                         .version("v1"));
 
