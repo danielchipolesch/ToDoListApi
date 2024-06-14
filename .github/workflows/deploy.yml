@@ -42,8 +42,8 @@ jobs:
                   aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
                   aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
                   use_existing_version_if_available: false
-                  application_name: todolistapi
-                  environment_name: todolistapi-env
+                  application_name: todolistapi2
+                  environment_name: todolistapi2-env
                   version_label: ${{github.SHA}}
                   region: us-east-2
                   deployment_package: ToDoListApi-0.0.1-SNAPSHOT.jar
